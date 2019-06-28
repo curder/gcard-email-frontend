@@ -11,7 +11,7 @@ module.exports = merge(baseWebpackConfig, {
   plugins: [
     // See https://github.com/jantimon/html-webpack-plugin#options
     new HtmlWebpackPlugin({
-      title: 'Hello World Dev.',
+      title: 'Gcard Send Email Frontend Dev.',
       filename: 'index.html',
       template: './public/index.html',
       inject: true,

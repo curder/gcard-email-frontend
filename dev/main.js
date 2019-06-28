@@ -1,8 +1,8 @@
 import Vue from 'vue';
 import App from './App.vue'
 
-import HelloWorld from '../src/index.js';
-Vue.use(HelloWorld);
+import SendEmailForm from '../src/index.js';
+Vue.use(SendEmailForm);
 
 Vue.config.productionTip = false;
 

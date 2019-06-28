@@ -5,8 +5,8 @@ const baseWebpackConfig = require('./webpack.base.conf');
 module.exports = merge(baseWebpackConfig, {
   entry: './src/index.js',
   output: {
-    filename: 'hello-world.js',
-    library: 'HelloWorld',
+    filename: 'gcard-email-manager.js',
+    library: 'GcardEmailManager',
     libraryTarget: 'umd',
     globalObject: 'typeof self !== \'undefined\' ? self : this',
   },
