@@ -1,6 +1,6 @@
 {
   "name": "@curder/gcard-email-manager",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "gcard商城发送引导邮件.",
   "author": "curder <curder@foxmail.com>",
   "main": "dist/gcard-email-manager.js",

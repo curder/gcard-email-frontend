@@ -3,7 +3,7 @@
     <div class="flex justify-center items-center min-h-screen" v-show="open">
       <div class="absolute inset-0 bg-black opacity-25"></div>
       <div class="w-1/2 border px-8 pt-16 pb-8 rounded-lg bg-white z-10">
-        <div class="text-gray-700">请留下您的邮箱地址，商城将为您发送，获取LUMO商城购买Gcard充值卡，具体操作流程的，指导说明文档。</div>
+        <div class="text-gray-700" v-text="title"></div>
         <form class="mt-8" @submit.prevent="submitHandle">
           <label class="block flex items-center">
             <span class="text-gray-700 font-bold">邮箱地址：</span>
@@ -44,7 +44,10 @@ export default {
       type: String,
       required: true,
     },
-
+    title:{
+      type: String,
+      required: true,
+    },
   },
 
   data() {
